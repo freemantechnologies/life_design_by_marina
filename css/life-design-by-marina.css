@@ -238,6 +238,10 @@ figcaption {
   text-align: center;
 }
 
+.mini-title.middle._375bot {
+  margin-bottom: 37.5px;
+}
+
 .intro-paragraph {
   font-family: 'Cormorant Garamond', sans-serif;
   color: #5f4d5d;
@@ -609,6 +613,10 @@ figcaption {
   padding-bottom: 37.5px;
 }
 
+._50-column-center.mobile-border.testimo.top.nobot {
+  padding-bottom: 0px;
+}
+
 ._50-column-center.mobile-border.testimo.botto {
   padding-top: 37.5px;
   padding-bottom: 37.5px;
@@ -625,7 +633,9 @@ figcaption {
 }
 
 .bottom-line.testi {
-  padding-bottom: 35px;
+  padding-bottom: 0px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
 }
 
 .bottom-line.contct {
@@ -1067,6 +1077,7 @@ figcaption {
 }
 
 .social-icon.facebook {
+  margin-right: 0px;
   background-image: url('../images/facebook-logo.svg');
   background-size: 15px;
 }
@@ -1867,6 +1878,28 @@ figcaption {
   line-height: 125%;
 }
 
+.paragraph-2.middle {
+  text-align: center;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.div-block-4 {
+  height: 0px;
+  margin-bottom: 75px;
+  border-bottom: 1px solid #d7b7d4;
+}
+
 @media screen and (max-width: 991px) {
   .brand.w--current {
     margin-left: 0px;
@@ -2130,13 +2163,17 @@ figcaption {
     padding-bottom: 20px;
   }
 
+  ._50-column-center.mobile-border.zero-bot {
+    margin-bottom: 0%;
+  }
+
   .bottom-line {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 
   .bottom-line.testi {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .collection-item {
@@ -2257,6 +2294,10 @@ figcaption {
     font-size: 19px;
     line-height: 125%;
     text-align: left;
+  }
+
+  .div-block-4 {
+    margin-bottom: 40px;
   }
 }
 
