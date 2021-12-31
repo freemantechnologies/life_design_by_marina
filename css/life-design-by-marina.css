@@ -2071,6 +2071,10 @@ figcaption {
     margin-top: 177px;
   }
 
+  .mini-title.middle._375bot {
+    margin-bottom: 20px;
+  }
+
   .intro-box {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2149,6 +2153,10 @@ figcaption {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  ._50-column-center.mobile-border.full-width {
+    margin-bottom: 0%;
   }
 
   ._50-column-center.mobile-border.testimo.top {
@@ -2318,6 +2326,10 @@ figcaption {
   .content-wrapper.nav {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .mini-title.middle._375bot {
+    margin-bottom: 10px;
   }
 
   .intro-box {
